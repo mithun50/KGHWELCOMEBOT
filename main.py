@@ -7,7 +7,7 @@ from keep_alive import keep_alive
 
 keep_alive()
 
-API_TOKEN = '7026322321:AAH9I8VzohHLrak7TT7ytiJ82NVHNaj--ZY'
+API_TOKEN = os.getenv('TGBToken')
 
 bot = telebot.TeleBot(API_TOKEN)
 
